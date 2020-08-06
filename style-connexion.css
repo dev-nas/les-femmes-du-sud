@@ -1,0 +1,117 @@
+body{
+  text-align: left;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px;
+}
+
+/*bouton lien association femmes du sud*/
+.navbar-brand{
+  color: white;
+  text-shadow: grey;
+  font-family: 'Open Sans', sans-serif;
+  margin: 30px;
+  background-color: black;
+}
+
+p{
+  margin: 10px: 
+}
+h3{
+  color: black;
+  text-align: center;
+}
+
+
+
+/*liens de la page d'accueil*/
+a {
+  color: white;
+  background-color: black;
+  margin: 5px;
+}
+ 
+
+form {
+  border: 3px solid #f1f1f1;
+@}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/*pour modifier le bouton s'inscrire*/
+button {
+  background-color: #b71c1c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*pour modifier le bouton s'inscrire le hover*/
+button:hover {
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+
+}
+/*pour modifier la position de l'image avatar*/
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/*pour modifier la dimension de l'image avatar*/
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 10px;
+  background-color:rgba(249, 249, 232, 0.3);;
+}
+
+/* pour modifier la position du mot de passe*/
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens/
+media queries servent à rendre le formulaire responsive */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+  .cancelbtn {
+     width: 100%;
+     background-color: black;
+  }
+}
+
+
+/*footer*/
+footer{
+  background-color: black;
+  text-align: center;
+  color: grey;
+  
+}

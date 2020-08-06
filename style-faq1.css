@@ -1,0 +1,55 @@
+
+body{
+  text-align: left;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  margin: 5px;
+  font-size: 17px;
+}
+
+.navbar-brand{
+  color: white;
+  text-shadow: grey;
+  font-family: 'Open Sans', sans-serif;
+  margin: 35px;
+  background-color: black;
+}
+
+
+/*présentation de l'association*/
+.présentation,h3{
+  text-align: center;
+}
+
+
+/* modification de liste de question*/
+.liste1{
+  text-align: left;
+  margin: 50px;
+}
+
+
+h3{
+  color: #b71c1c;
+}
+
+h4,h5 {
+  text-align: left;
+  color:black;
+} 
+
+a {
+  color: white;
+}
+   
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  
+}
+    
+
+   
+  
+ 

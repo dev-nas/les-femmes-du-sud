@@ -1,0 +1,47 @@
+.navbar-brand{
+  color: white;
+  text-shadow: grey;
+  font-family: 'Open Sans', sans-serif;
+  margin: 35px;
+  background-color: black;
+}
+
+a{
+  color: white;
+}
+
+body{
+ font-family: 'Open Sans', sans-serif;
+ margin: 5px;
+ font-size: 16px; 
+}
+
+h2{
+  text-align: center;
+  color: black;
+}
+
+/* contenaire du formulaire d'annonce*/
+.annonce{
+  text-align: center;
+  background-color:#f5f5f5;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+/*bouton déposer votre annonce*/
+button{
+  background: #b71c1c;
+  color: white;
+  font-weight: 50px;
+}
+
+/*footer*/
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  
+}

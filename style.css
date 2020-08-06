@@ -1,0 +1,110 @@
+   
+ 
+
+                    /*navbar*/
+
+header {
+  background-color: white; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+color: white;
+}
+
+ 
+
+
+/*couleur bouton dépot d'annonce*/
+
+
+body {
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  }
+
+h2, h4 {
+text-align: center;
+color:black;
+ 
+}
+
+/* logo*/
+.navbar-brand {
+  color:red;
+  text-shadow:grey;
+}
+
+
+/*carousel*/
+
+/*on modifie la taille de l'image du carousel*/
+.item{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+
+/* on mofifier le texte du carousel*/
+.carousel-caption {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: black;
+  opacity: 70%;
+  font-size: 16px;
+
+}
+
+/*image carte boostrap*/
+
+.thumbnail {
+  padding: 0 0 10px 0;
+  border: none;
+  border-radius: 30;
+  margin: 5px;
+  font-size: 18px;
+}
+
+/*pour modifier la taille des cartes
+on paramètre la première carte et les autres seront automatiquement modifiés */
+
+.thumbnail img {
+  width: 85%;
+  height: 70%;
+  margin-bottom: 10px;
+}
+
+/*newsletter*/
+
+.newsletter {
+  background-color: #f0f0f0;
+  opacity: 95%;
+  text-align: center;
+  color: black;
+
+}
+/*bouton newletters*/
+.submit{
+  color:red; #d81b60 
+}
+  
+
+
+/*les images des cartes sont responsive car elle s'adapte au contenaire à 100% sur tous les formats*/
+img-responsive {
+  width: 100px;
+}
+
+/*footer*/
+
+footer, a {
+  background-color:black;
+  opacity: 90%; 
+  text-align: center;
+  color: white;
+  }
+
